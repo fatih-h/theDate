@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  text-shadow: 1px 1px white;
+}
+.date-time {
+  font-size: 40px;
+}
+ul {
+  margin: 0 25%;
+}
+li {
+  text-align: initial;
+  color: white;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+li::before {
+  content: "\2022";
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
